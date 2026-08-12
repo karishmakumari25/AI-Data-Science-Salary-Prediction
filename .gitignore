@@ -3,3 +3,4 @@ venv/
 notebook/.ipynb_checkpoints/
 *.zip
 __pycache__/
+.env

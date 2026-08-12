@@ -9,11 +9,10 @@ st.set_page_config(
     layout="wide"
 )
 
-# Load dataset and trained model
 df = pd.read_csv("dataset/ai_ds_job_salaries_2026.csv")
 model = joblib.load("models/salary_prediction_model.pkl")
 
-# Header
+
 st.title("💰 AI Salary Prediction")
 st.write("Predict your expected salary using Machine Learning.")
 
